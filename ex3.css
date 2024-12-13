@@ -23,7 +23,7 @@ section {
 }
 
 main, aside {
-    
+
     padding: 20px 20px;
     text-align: left;
 }
@@ -50,8 +50,15 @@ footer {
 }
 
 @media (min-width: 901px) {
+    header, footer {
+        padding: 40px 0;
+    }
     section {
         grid-template-columns: 2fr 1fr;
+        padding: 10px 20px;
+    }
+    main, aside {
+        padding: 10px 20px;
     }
 }
 
